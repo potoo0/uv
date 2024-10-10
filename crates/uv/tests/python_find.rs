@@ -12,6 +12,9 @@ mod common;
 
 #[test]
 fn python_find() {
+    // fixme: for wsl debug, 提交时删除!!!!!!!!!!!
+    // std::env::set_var("CARGO_MANIFEST_DIR", "/home/wsl/0-projects/uv/crates/uv");
+
     let mut context: TestContext = TestContext::new_with_versions(&["3.11", "3.12"]);
 
     // No interpreters on the path

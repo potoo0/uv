@@ -1,3 +1,6 @@
+# RustRover
+.idea/
+
 # Insta snapshots.
 *.pending-snap
 
